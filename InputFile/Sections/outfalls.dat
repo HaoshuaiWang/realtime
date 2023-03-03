@@ -1,0 +1,10 @@
+[OUTFALLS]
+;;Name           Elevation  Type       Stage Data       Gated    Route To        
+;;-------------- ---------- ---------- ---------------- -------- ----------------
+DD19             26.890000  FREE                        NO                       
+DD17             27.600000  FREE                        NO                       
+DD18A            28.330000  FREE                        NO                       
+dscout1breakA    26.25      FREE                        NO                       
+dscout1breakB    26.25      FREE                        NO                       
+DD18B            28.330000  FREE                        NO                       
+DD18C            28.330000  FREE                        NO                       

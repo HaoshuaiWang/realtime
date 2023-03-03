@@ -1,0 +1,45 @@
+[OUTFALLS]
+;;Name           Elevation  Type       Stage Data       Gated    Route To        
+;;-------------- ---------- ---------- ---------------- -------- ----------------
+5666             40.090000  FREE                        NO                       
+6165             39.980000  FREE                        NO                       
+7139             40.410000  FREE                        NO                       
+26020            39.430000  FREE                        NO                       
+12989            39.340000  FREE                        NO                       
+774              39.790000  FREE                        NO                       
+25429            38.880000  FREE                        NO                       
+869              36.540000  FREE                        NO                       
+9971             38.340000  FREE                        NO                       
+11700            37.490000  FREE                        NO                       
+10115            37.250000  FREE                        NO                       
+27297            39.040000  FREE                        NO                       
+7694             43.850000  FREE                        NO                       
+26742            39.740000  FREE                        NO                       
+26741            39.340000  FREE                        NO                       
+25513            39.420000  FREE                        NO                       
+26209            39.150000  FREE                        NO                       
+15423            39.030000  FREE                        NO                       
+25870            37.770000  FREE                        NO                       
+31970            36.040000  FREE                        NO                       
+10676            41.220000  FREE                        NO                       
+20763-new        44.000000  FREE                        NO                       
+T42              24.060000  FREE                        NO                       
+干流-出口            22.990000  FREE                        NO                       
+chybc20386       35.130000  FREE                        NO                       
+bc615868         35.550000  FREE                        NO                       
+chybc15830       29.590000  FREE                        NO                       
+chybc27982       36.650000  FREE                        NO                       
+chybc30037       31.750000  FREE                        NO                       
+chybc30143       30.180000  FREE                        NO                       
+chybc30743       36.080000  FREE                        NO                       
+chybc30757       31.420000  FREE                        NO                       
+chybc31141       29.880000  FREE                        NO                       
+chybc31281       32.090000  FREE                        NO                       
+chybc31475       29.540000  FREE                        NO                       
+outfall-25199    39.310000  FREE                        NO                       
+outfall-25208    38.590000  FREE                        NO                       
+outfall-chybc24887 32.820000  FREE                        NO                       
+outfall-164737   41.220000  FREE                        NO                       
+outfall-node-6146 41.220000  FREE                        NO                       
+outfall-chybc20106 35.360000  FREE                        NO                       
+

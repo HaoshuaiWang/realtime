@@ -1,0 +1,14 @@
+[ORIFICES]
+;;Name           From Node        To Node          Type         Offset     Qcoeff     Gated    CloseTime 
+;;-------------- ---------------- ---------------- ------------ ---------- ---------- -------- ----------
+waihuan上2.2      waihuan上2        DD17             SIDE         0.010000   0.707107   NO       0         
+yangfang上2.2     yangfang上2       yangfang下2       SIDE         0.010000   0.707107   NO       0         
+xiaqinghe上2.2    xiaqinghe上2      xiaqinghe下2      SIDE         0.010000   0.707107   NO       0         
+xiaojiahe上3.2    xiaojiahe上3      xiaojiahe下3      SIDE         0.010000   0.707107   NO       0         
+shucun上2.3       shucun上2         shucun下2         SIDE         0.010000   0.707107   NO       0         
+jingbao上.2       jingbao上         jingbao下2        SIDE         0.010000   0.707107   NO       0         
+qinghe上.2        qinghe上          qinghe下          SIDE         0.010000   0.707107   NO       0         
+anhezha上.2       anhezha上         anhezha下         SIDE         0.010000   0.707107   NO       0         
+shaziying上.2     shaziying上       干流-出口            SIDE         0.010000   0.707107   NO       0         
+shenjiafen上2.2   shenjiafen上2     DD20             SIDE         0.010000   0.707107   NO       0         
+

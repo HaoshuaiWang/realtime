@@ -1,0 +1,9 @@
+[RAINGAGES]
+;;Name           Format    Interval SCF      Source    
+;;-------------- --------- ------ ------ ----------
+1                INTENSITY 0:05     1.0      TIMESERIES RainGage1       
+2                INTENSITY 0:05     1.0      TIMESERIES RainGage2       
+3                INTENSITY 0:05     1.0      TIMESERIES RainGage3       
+4                INTENSITY 0:05     1.0      TIMESERIES RainGage4       
+5                INTENSITY 0:05     1.0      TIMESERIES RainGage5       
+6                INTENSITY 0:05     1.0      TIMESERIES RainGage6       

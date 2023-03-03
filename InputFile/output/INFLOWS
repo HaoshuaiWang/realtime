@@ -1,0 +1,8 @@
+[INFLOWS]
+;;Node           Constituent      Time Series      Type     Mfactor  Sfactor  Baseline Pattern
+;;-------------- ---------------- ---------------- -------- -------- -------- -------- --------
+干流-起点            FLOW             干流-起点            FLOW     1.0      1.0              
+小月河-起点           FLOW             小月河-起点           FLOW     1.0      1.0              
+万泉河-起点           FLOW             万泉河-起点           FLOW     1.0      1.0              
+清洋河-中            FLOW             清洋河-中            FLOW     1.0      1.0              
+
