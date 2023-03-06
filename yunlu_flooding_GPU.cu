@@ -104,11 +104,12 @@ void log_end_title(clock_t clock) {
     printf("==============================================================================\n");
 }
 
-void log_CELL_U() {
+void log_CELL_U(int minute) {
     int i, j;
     FILE *file;
-
-    file = fopen("CELL_U.BIN", "wb");
+    char filename[100];
+    sprintf(filename, "%s_%d%s","Output/CELL_U", minute, ".BIN");
+    file = fopen(filename, "wb");
     fwrite(CELL_U, sizeof(double), (IM + 2) * (JM + 2) * 3, file);
     fclose(file);
 
@@ -974,6 +975,7 @@ int main(int argc, char *argv[]) {
 			         (int)swmm_getValue(swmm_TOTALSTEPS, 0), \
 			        ".dat");
 		    set_rain(rainFile);
+		    log_CELL_U((int)swmm_getValue(swmm_TOTALSTEPS, 0));
 	        }
 	        flow_transfer(relationCount, relation);
 		height_host_to_device(d_CELL_U, d_CELL_I0);
@@ -994,7 +996,7 @@ int main(int argc, char *argv[]) {
     cudaDeviceReset();
 
     log_CUDA_error();
-    log_CELL_U();
+    //log_CELL_U();
 
     log_end_title(t_end - t_start);
     clean_up(d_UMAX, d_CELL_DEM, d_CELL_U, d_CELL_NM, d_CELL_I0, d_EDGE_TYPE, d_EDGE_H, d_INTERFACES);
